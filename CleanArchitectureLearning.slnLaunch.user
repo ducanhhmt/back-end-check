@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CleanArchitectureLearning\\CleanArchitectureLearning.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CleanArchitecture.Worker\\CleanArchitecture.Worker.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

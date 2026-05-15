@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CleanArchitecture.Application.DTO
+{
+    public class ProductDTO
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Series { get; private set; }
+        public int NxbId { get; set; }
+        public int CategoriesId { get; set; }
+        public int Weight { get; set; }
+        public int ImportPrice { get; set; }
+        public int Price { get; set; }
+        public int Quantity { get; set; }
+        public int Discount { get; set; }
+        public DateTime DateCreated { get; set; } = DateTime.Now;
+        public string? Description { get; set; }
+        public List<string?> ThumbnailIMG { get; set; }
+    }
+}
